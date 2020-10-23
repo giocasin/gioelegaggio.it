@@ -27,7 +27,7 @@ SECRET_KEY = '942915gw61p-btmi($vhf*$st1n6012-!93%78dc@*r82cb%z3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'gioelegaggio.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'www.gioelegaggio.it', 'gioelegaggio.it', 'gioelegaggio.herokuapp.com']
 
 
 # Application definition

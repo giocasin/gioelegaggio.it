@@ -1,0 +1,18 @@
+{% extends "blog/base.html" %} 
+{% load static %}
+{% block content %}
+    <img src="{% static 'src/img/io.jpg' %}" class="main-img float-left"/>
+    <h1>Lorem Ipsum</h1>
+    <p class="main-text justified">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fermentum sapien nibh, ut ultricies erat blandit id. Suspendisse et nisi a libero malesuada mollis. Quisque neque lacus, pellentesque in purus id, aliquet aliquet dolor. Morbi lobortis viverra diam nec scelerisque. Aliquam tortor turpis, ultricies et accumsan in, faucibus vel ipsum. Donec eleifend augue vel aliquam hendrerit. Duis pharetra placerat dapibus. Fusce finibus lorem nec molestie tempor. Duis at volutpat diam. Aenean pulvinar, velit at sagittis ornare, orci diam pretium orci, at molestie nunc massa nec nisl.
+    </p>
+    <p class="main-text justified">
+        Mauris aliquam nulla ut nunc volutpat, in porttitor purus pulvinar. Nullam rutrum leo lectus, quis euismod mi vestibulum at. Sed varius porta tellus finibus consectetur. Curabitur a orci fringilla, faucibus enim sit amet, consectetur arcu. Sed sed volutpat quam, sed hendrerit lorem. Pellentesque viverra nisi ac leo congue pellentesque. Nulla fermentum dui eu felis egestas tempus. Mauris risus nulla, vulputate vitae aliquet eget, sodales in neque. Sed placerat justo eget iaculis imperdiet.
+    </p>
+    <p class="main-text justified">
+        Cras eleifend tortor id quam tempor pellentesque. Sed congue, mi ac feugiat dignissim, justo massa convallis felis, quis porta orci enim id ligula. Phasellus in finibus orci. Praesent rutrum mi felis, a interdum sapien facilisis at. Nulla facilisi. Phasellus congue, elit quis venenatis sodales, leo mauris ultricies sem, eu ornare mauris lectus egestas felis. Ut non risus et dui accumsan maximus a a ante. Pellentesque leo nisl, ullamcorper sed fermentum ac, sodales nec erat. Suspendisse ut lorem purus. Maecenas varius, nisl eu sodales ullamcorper, felis justo lacinia sem, vel tempus mi tortor eu felis. Maecenas accumsan finibus faucibus. Duis ac eleifend enim. Sed suscipit mauris sit amet ipsum blandit porta. Nullam ultrices quam vel sapien congue mollis quis ut mauris. Aliquam tincidunt elit ut lacinia finibus.
+    </p>
+    {% block last_post %}{% include 'blog\last_post.html' %}{% endblock last_post %}
+    {% block projects %}{% include 'blog\projects.html' %}{% endblock projects %}
+    {% block currently %}{% include 'blog\currently.html' %}{% endblock currently %}
+{%endblock%}

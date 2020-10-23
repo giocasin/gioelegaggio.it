@@ -1,0 +1,57 @@
+footer {
+    border-top: 1px solid lightgray;
+    clear: both;
+}
+
+#main-content {
+    margin: 1em 15% 0 15%;
+}
+
+.navbar-styled {
+    box-shadow: 0 4px 4px -2px rgba(0,0,0,.2);
+    padding: 0 15% 0 15%;
+    border-top: 4px solid purple;
+}
+
+.navbar-title {
+    font-size: 1.5em;
+    font-family: Germania One;
+    font-weight: bold;
+    display: block;
+    padding: 0 1rem;
+}
+
+.main-img {
+    width: 30%;
+    max-width: 450px;
+    margin: 0 1em 0 0;
+}
+
+.main-text {
+    font-size: 1.2em;
+}
+
+.justified {
+    text-align: justify;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 1.5em;
+} 
+
+.section-box {
+    border-top: 1px solid lightgray;
+    clear: both;
+}
+
+.section-title {
+    font-size: 3em;
+    font-style: italic;
+    margin-bottom: 3%;
+}
+
+.secondary-info {
+    font-style: italic;
+    color: lightgray;
+}

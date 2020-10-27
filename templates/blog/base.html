@@ -8,9 +8,9 @@
     href="{% static 'src/css/main.css' %}" /> 
 </head>
 <body>
-    {% block navbar %} {% include 'blog\navbar.html' %} {% endblock navbar %}
+    {% block navbar %} {% include 'blog/navbar.html' %} {% endblock navbar %}
     <div id="main-content">
         {% block content %}{% endblock content %}
     </div>
-    {% block footer %} {% include 'blog\footer.html' %} {% endblock footer %}
+    {% block footer %} {% include 'blog/footer.html' %} {% endblock footer %}
 </body>

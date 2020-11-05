@@ -10,11 +10,7 @@ footer {
 .navbar-styled {
     box-shadow: 0 4px 4px -2px rgba(0,0,0,.2);
     padding: 0 15% 0 15%;
-<<<<<<< HEAD
     border-top: 4px solid darkblue;
-=======
-    border-top: 4px solid purple;
->>>>>>> 917260dceff101c8a75421d7188204859a32a3a3
 }
 
 .navbar-title {
@@ -45,10 +41,7 @@ footer {
 } 
 
 .section-box {
-<<<<<<< HEAD
     margin-bottom: 25px;
-=======
->>>>>>> 917260dceff101c8a75421d7188204859a32a3a3
     border-top: 1px solid lightgray;
     clear: both;
 }

@@ -5,12 +5,14 @@
     <link rel="stylesheet" type="text/css" 
     href="{% static 'src/css/bootstrap/bootstrap.min.css' %}" /> 
     <link rel="stylesheet" type="text/css" 
-    href="{% static 'src/css/main.css' %}" /> 
+    href="{% static 'src/css/main.css' %}" />
+    <script type="text/javascript" src="{% static 'src/js/jquery/jquery-3.5.1.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'src/js/bootstrap/bootstrap.min.js' %}"></script>
 </head>
 <body>
-    {% block navbar %} {% include 'blog\navbar.html' %} {% endblock navbar %}
+    {% block navbar %} {% include 'blog/navbar.html' %} {% endblock navbar %}
     <div id="main-content">
         {% block content %}{% endblock content %}
     </div>
-    {% block footer %} {% include 'blog\footer.html' %} {% endblock footer %}
+    {% block footer %} {% include 'blog/footer.html' %} {% endblock footer %}
 </body>

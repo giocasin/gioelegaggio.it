@@ -1,13 +1,17 @@
 <div class="section-box">
     <div class="text-center">
-        <h3 class="section-title">Ultimo Post</h3>
+        <h3 class="section-title">Ultimi Post</h3>
     </div>
-    <div>
-        <h1>{{ post_list.0.title }}</h1>
-        <div class="justified">
-            <p class="card-text text-muted h6">{{ post_list.0.created_on}} </p>
-            <p class="card-text">{{post_list.0.content|slice:":200" }}</p>
-            <a href="{% url 'post_detail' post_list.0.slug  %}" class="btn btn-primary">Continua a Leggere &rarr;</a>
-        </div>
+    <div class="row">
+        {% for post in post_list %}
+            <div class="col">
+                <h1>{{ post.title }}</h1>
+                <div class="justified">
+                    <p class="card-text text-muted h6">{{ post.created_on}} </p>
+                    <p class="card-text">{{post.content|slice:":200"|safe }}</p>
+                    <a href="{% url 'post_detail' post.slug  %}" class="btn btn-primary btn-dark">Continua a Leggere &rarr;</a>
+                </div>
+            </div>
+        {% endfor %}
     </div>
 </div>

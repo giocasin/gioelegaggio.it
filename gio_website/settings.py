@@ -80,10 +80,23 @@ WSGI_APPLICATION = 'gio_website.wsgi.application'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 DATABASES = {
+
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR + '/db.sqlite3',
+
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+
+        'NAME': 'dllj9sjtr20r8',
+
+        'USER': 'mjpzobybponvka',
+
+        'PASSWORD': 'b78280a31ebf7852e1fd95a58fe88154c6fb62c4e7ba204ec9446d10df32ad87',
+
+        'HOST': 'ec2-54-217-213-79.eu-west-1.compute.amazonaws.com',
+
+        'PORT': '5432',
+
     }
+
 }
 
 

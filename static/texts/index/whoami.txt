@@ -1,7 +1,3 @@
-<h1>I'm Gioele</h1>
-<p class="main-text justified">Questo blog nasce con l'idea di compiacere i miei attimi di condivisione. E grazie... risponderete voi, però vorrei che lo scopo di tutto questo sia aiutarmi a tener traccia delle varie fasi di pensiero che mi scorrono nella mente. Vediamola come, semplicemente, un modo per conoscermi meglio. Per capire come ero, come sono e forse come sarò. Ma questo chi può dirlo?
-</p>
-<p class="main-text justified">Come ogni prodotto della società della mia simile età sono affamato di una quantità interminabile di aspetti della vita. Sensazioni, emozioni, cose. Passatemi questo termine, prodotto, so che possa sembrare freddo ed a tratti banale, ma per me è la verità e la verità non è sempre emozionante e sorprendente. Da bravo prodotto non riesco a fare a meno di pensare, pensare, pensare ed elaborare ciò che accade ed in quale modo mi condiziona. Ho molte (troppe) passioni e questo angolo è nato per contenerne qualcuna. Alla fine del viaggio, sarà un bel contenitore di tutto il mio periodo evolutivo: di come è cambiato il mondo e di come si è riflesso dentro di me.
-</p>
-
-<p class="main-text justified">Insomma, uno spazio mutevole che si evolverà come me ed insieme a me. Condividerò, anzi, custodirò scatti, pensieri, racconti e nuove avventure. Chissà alla fine cosa verrà fuori.</p>
+Se dicessi che mi piace condividere i miei attimi personali direi una bella frottola. Questo blog non nasce con questo scopo.
+Sono Gioele, un giovane fuori (per ora) e dentro, vittima volente o non lente di tutto l'arco temporale che stiamo vivendo. Mi piace riflettere su come questo periodo agisca sulla mia personalità e sui miei pensieri.
+Questo blog sarà uno spazio per sfogarsi, condivisione di idee magari effimere od utopistiche. Insomma, una raccolta di pensieri ed eventi che mi aiuteranno ad avere una mappa dei miei pensieri.

@@ -16,7 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+from google_site_verification import GOOGLE_SITE_VERIFICATION_URL
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('blog.urls'))
+    path('', include('blog.urls')),
+    GOOGLE_SITE_VERIFICATION_URL
 ]

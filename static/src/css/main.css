@@ -10,7 +10,7 @@ footer {
 .navbar-styled {
     box-shadow: 0 4px 4px -2px rgba(0,0,0,.2);
     padding: 0 15% 0 15%;
-    border-top: 4px solid darkblue;
+    color: white;
 }
 
 .navbar-title {
@@ -48,15 +48,31 @@ footer {
 
 .section-title {
     font-size: 3em;
-    font-style: italic;
     margin-bottom: 3%;
+    color: black;
+}
+
+.title {
+    font-weight: bold;
 }
 
 .secondary-info {
     font-style: italic;
-    color: lightgray;
 }
 
 .post-text {
     text-align: justify;
+}
+
+.lpost-dt-r {
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+
+.lpost-dt {
+    border-left: 1px solid lightgray;
+}
+
+.post {
+    width: 100%;
 }

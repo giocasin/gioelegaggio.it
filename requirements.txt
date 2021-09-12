@@ -14,5 +14,5 @@ wrapt==1.12.1
 dj-database-url==0.5.0
 whitenoise==5.2.0
 gunicorn==20.0.4
-psycopg2==2.7.3.2
+psycopg2==2.9.1
 google_site_verification==0.0.4

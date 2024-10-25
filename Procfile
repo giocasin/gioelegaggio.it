@@ -1,1 +1,0 @@
-web: gunicorn gio_website.wsgi --log-file -

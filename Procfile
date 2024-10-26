@@ -1,1 +1,1 @@
-web: gunicorn gio_website.wsgi --log-file -
+web: gunicorn gioelegaggio_web.wsgi --log-file -

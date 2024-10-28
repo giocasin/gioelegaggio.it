@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-aya&&4!+9i_g*no%*sme%@k)98ifvzs$j$prl2x9fj90a+!52u
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'www.gioelegaggio.it', 'gioelegaggio.it', 'gioelegaggio.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'www.gioelegaggio.it', 'gioelegaggio.it', 'gioelegaggio.herokuapp.com', 'tricky-maurene-gioelegg-6e42d3c8.koyeb.app']
 
 
 # Application definition

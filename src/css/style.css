@@ -23,14 +23,11 @@ body {
 
 .sections-container {
     margin-top: 1em;
-    position: absolute;
-    top: 15em;
 }
 
 .section-block {
     display: inline-table;
     border: 5px solid black;
-    min-width: 400px;
     max-width: 400px;
     min-height: 600px;
     max-height: 600px;

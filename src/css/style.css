@@ -1,6 +1,6 @@
 body {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 .centered {
@@ -27,7 +27,7 @@ body {
 
 .section-block {
     display: inline-table;
-    border: 5px solid black;
+    border: 5px solid white;
     max-width: 400px;
     min-height: 600px;
     max-height: 600px;
@@ -37,7 +37,7 @@ body {
 }
 
 .section-top-img {
-    border-bottom: 2.5px solid black;
+    border-bottom: 2.5px solid white;
     height: 55vh;
 }
 
@@ -48,7 +48,7 @@ body {
 }
 
 .section-body {
-    border-top: 2.5px solid black;
+    border-top: 2.5px solid white;
     text-align: left;
     padding: 1em;
     word-spacing: 5px;
@@ -60,6 +60,5 @@ body {
 
 .footer {
     width: 100%;
-    position: fixed;
-    bottom: 0;
+    font-size: 0.4em;
 }

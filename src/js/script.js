@@ -1,3 +1,3 @@
-function MenuImageOver(caller) {
-    caller.style.filter = 'hue-rotate(180deg)'
+function GetCurrentYear() {
+    document.getElementById("footer-text-date").innerHTML = new Date().getFullYear();
 }

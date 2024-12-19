@@ -27,7 +27,6 @@ body {
 
 .section-block {
     display: inline-table;
-    border: 5px solid white;
     max-width: 400px;
     min-height: 600px;
     max-height: 600px;
@@ -37,12 +36,20 @@ body {
     font-size: 1em;
 }
 
+.section-text {
+    font-size: 1em;
+}
+
 .section-block-framed {
     display: inline-table;
     border: 5px solid white;
     margin: 1em;
     position: relative;
     z-index: 2;
+    width: 90%;
+}
+
+.section-text-framed {
     font-size: 3em;
 }
 
@@ -66,6 +73,9 @@ body {
 
 .section-title {
     font-size: 2em;
+}
+.section-title-framed {
+    font-size: 4em;
 }
 
 .footer {

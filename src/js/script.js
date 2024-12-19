@@ -3,8 +3,6 @@ function GetCurrentYear() {
 }
 
 function PageIsInFrame() {
-    console.log(MobileAndTablet())
-    
     if (MobileAndTablet()) {
         
         var sectionBlocks = document.getElementsByClassName("section-block");

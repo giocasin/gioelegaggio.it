@@ -3,7 +3,7 @@ function GetCurrentYear() {
 }
 
 function PageIsInFrame() {
-    if (document.getElementsByTagNameNS("frame") !== undefined) {
+    if (document.getElementsByTagName("frame") !== undefined) {
         
         var sectionBlocks = document.getElementsByClassName("section-block");
 

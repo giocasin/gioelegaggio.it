@@ -36,6 +36,17 @@ body {
     z-index: 2;
 }
 
+.section-block-framed {
+    display: inline-table;
+    border: 5px solid white;
+    max-width: 400px;
+    min-height: 600px;
+    max-height: 600px;
+    margin: 1em;
+    position: relative;
+    z-index: 2;
+}
+
 .section-top-img {
     border-bottom: 2.5px solid white;
     height: 55vh;

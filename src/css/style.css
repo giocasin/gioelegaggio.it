@@ -81,4 +81,6 @@ body {
 .footer {
     width: 100%;
     font-size: 0.4em;
+    position: relative;
+    bottom: 0;
 }

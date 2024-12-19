@@ -3,15 +3,13 @@ function GetCurrentYear() {
 }
 
 function PageIsInFrame() {
-
+    console.log(MobileAndTablet())
     
     if (MobileAndTablet()) {
         
         var sectionBlocks = document.getElementsByClassName("section-block");
 
         for (let i = 0; i < sectionBlocks.length; ) {
-            console.log(i)
-            console.log(sectionBlocks[i])
             sectionBlocks[i].classList.add("section-block-framed");
 
             sectionBlocks[i].querySelector("#st").classList.add("section-text-framed");

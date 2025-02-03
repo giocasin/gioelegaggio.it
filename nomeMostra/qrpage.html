@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>GIOELEGAGGIO.IT</title>
+        <link rel="stylesheet" href="../src/css/style.css">
+        <script src="../src/js/html2canvas.min.js"></script>
+        <script src="../src/js/script.js"></script> 
+        <link rel="icon" href="./favicon.ico" type="image/x-icon">
+      </head>
+    <body onload="GetText()">
+        <div id='mainCont' class="centered section-block" style='border: 5px solid white; text-align: justify; padding: 5px; margin: 0 auto; display: block; max-height: 700px;'>
+          <div id="image" style="text-align: center;">
+            <img src="../src/img/photography/_A740962(1).jpg" style="width: 70%;"/>
+          </div>
+          <div id="textResult" style="font-size: 1em;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas iaculis dapibus tempor. Donec ultrices consequat leo, ac fermentum urna suscipit quis. Vestibulum luctus fringilla sem, elementum sodales enim iaculis non.</div>
+          <div class="circleL" id="loader" style="visibility: hidden; display: none;"></div>
+        </div>
+        <button onclick="PrintDiv()">FAI!</button>
+    </body>
+</html> 

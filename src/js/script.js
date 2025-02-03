@@ -36,11 +36,20 @@ function PrintDiv() {
     });
  }
  
- function downloadURI(uri, name) {
+ async function downloadURI(uri, name) {
 
-     var link = document.createElement("a")
-     link.download = name;
-     link.href = uri;
-     document.body.appendChild(link)
-     link.click();
+    const filesArray = [
+        new File([uri], name, {
+          type: 'image/png',
+          lastModified: new Date().getTime(),
+        }),
+      ];
+      const shareData = {
+        title: `${title}`,
+        files: filesArray,
+      };
+  
+      if (navigator.canShare && navigator.canShare(shareData)) {
+        await navigator.share(shareData);
+      }
  }

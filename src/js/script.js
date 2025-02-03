@@ -27,12 +27,12 @@ function MobileAndTablet() {
     return check;
 }
 
-function PrintDiv() {
+async function PrintDiv() {
     const div = document.getElementById('mainCont')
     
-    html2canvas(div).then(canvas => {
+    html2canvas(div).then(async canvas => {
        var myImage = canvas.toDataURL()
-       downloadURI(myImage, "MaSimulation.png")
+       await downloadURI(myImage, "MaSimulation.png")
     });
  }
  

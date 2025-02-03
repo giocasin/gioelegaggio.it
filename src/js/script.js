@@ -27,16 +27,16 @@ function MobileAndTablet() {
     return check;
 }
 
-async function PrintDiv() {
+function PrintDiv() {
     const div = document.getElementById('mainCont')
     
     html2canvas(div).then(async canvas => {
        var myImage = canvas.toDataURL()
-       await downloadURI(myImage, "MaSimulation.png")
+        downloadURI(myImage, "MaSimulation.png")
     });
  }
  
- async function downloadURI(uri, name) {
+function downloadURI(uri, name) {
 
     const filesArray = [
         new File([uri], name, {
@@ -50,6 +50,6 @@ async function PrintDiv() {
       };
   
       if (navigator.canShare && navigator.canShare(shareData)) {
-        await navigator.share(shareData);
+        navigator.share(shareData);
       }
  }

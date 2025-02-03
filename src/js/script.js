@@ -37,10 +37,10 @@ function PrintDiv() {
  }
  
  function downloadURI(uri, name) {
-     var link = document.getElementById('mainCont').createElement("a");
- 
+
+     var link = document.createElement("a")
      link.download = name;
      link.href = uri;
-     document.body.appendChild(link);
+     document.body.appendChild(link)
      link.click();
  }

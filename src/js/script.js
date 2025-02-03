@@ -45,7 +45,7 @@ function PrintDiv() {
         }),
       ];
       const shareData = {
-        title: `${title}`,
+        title: name,
         files: filesArray,
       };
   

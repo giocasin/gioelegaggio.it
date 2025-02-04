@@ -31,8 +31,10 @@ function PrintDiv() {
     const div = document.getElementById('mainCont')
     
     html2canvas(div).then(canvas => {
-       var myImage = canvas.toDataURL()
+       fetch(canvas.toDataURL()).then(res => {
+        var myImage = res.blob()
         downloadURI(myImage, "MaSimulation.png")
+       })
     });
  }
  

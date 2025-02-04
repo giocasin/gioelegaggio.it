@@ -49,6 +49,7 @@ async function downloadURI(uri, name) {
         url: document.location.origin
       }
   
+      console.log('here')
       if (navigator.canShare && navigator.canShare(shareData)) {
         await navigator.share(shareData)
       }

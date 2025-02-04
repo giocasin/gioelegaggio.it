@@ -32,7 +32,7 @@ function PrintDiv() {
     
     html2canvas(div).then(canvas => {
       canvas.toBlob((blob) => {
-        downloadURI(blob, "MaSimulation.png")
+        downloadURI(blob, "Foto")
       })
     });
  }
@@ -50,7 +50,7 @@ function downloadURI(uri, name) {
         url: document.location.origin
       };
   
-      if (navigator.canShare && navigator.canShare(shareData)) {
+      //if (navigator.canShare && navigator.canShare(shareData)) {
         navigator.share(shareData).then(() => console.log('shared'));
-      }
+      //}
  }

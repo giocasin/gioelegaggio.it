@@ -31,7 +31,7 @@ function PrintDiv() {
     const div = document.getElementById('mainCont')
     
     html2canvas(div).then(async canvas => {
-       var myImage = canvas.toDataURL().blob()
+       var myImage = canvas.toDataURL()
         downloadURI(myImage, "MaSimulation.png")
     });
  }
@@ -47,6 +47,7 @@ function downloadURI(uri, name) {
       const shareData = {
         title: name,
         files: filesArray,
+        url: document.location.origin
       };
   
       if (navigator.canShare && navigator.canShare(shareData)) {

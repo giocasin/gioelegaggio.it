@@ -32,7 +32,7 @@ async function PrintDiv() {
     
     var canvas = await html2canvas(div)
     canvas.toBlob(async (blob) => {
-      await downloadURI(blob, 'foto')
+      await downloadURI(blob, 'foto.png')
     })
  }
  

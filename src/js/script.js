@@ -52,5 +52,6 @@ async function downloadURI(uri, name) {
       console.log('here')
       if (navigator.canShare && navigator.canShare(shareData)) {
         await navigator.share(shareData)
+        document.getElementById('textResult').innerHTML = 'eccoci qua'
       }
  }

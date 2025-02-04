@@ -32,7 +32,7 @@ function PrintDiv() {
     
     html2canvas(div).then(canvas => {
       canvas.toBlob((blob) => {
-        downloadURI(blob, "Foto")
+        downloadURI(blob, 'foto')
       })
     });
  }
@@ -43,14 +43,14 @@ function downloadURI(uri, name) {
           type: 'image/png',
           lastModified: new Date().getTime(),
         }),
-      ];
+      ]
       const shareData = {
         title: name,
         files: filesArray,
         url: document.location.origin
-      };
+      }
   
-      //if (navigator.canShare && navigator.canShare(shareData)) {
-        navigator.share(shareData).then(() => console.log('shared'));
-      //}
+      if (navigator.canShare && navigator.canShare(shareData)) {
+        navigator.share(shareData).then(() => console.log('shared'))
+      }
  }

@@ -39,7 +39,6 @@ function PrintDiv() {
  }
  
 function downloadURI(uri, name) {
-
     const filesArray = [
         new File([uri], name, {
           type: 'image/png',
@@ -53,6 +52,6 @@ function downloadURI(uri, name) {
       };
   
       if (navigator.canShare && navigator.canShare(shareData)) {
-        navigator.share(shareData);
+        navigator.share(shareData).then(() => console.log('shared'));
       }
  }

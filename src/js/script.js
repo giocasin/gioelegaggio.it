@@ -30,8 +30,8 @@ function MobileAndTablet() {
 function PrintDiv() {
     const div = document.getElementById('mainCont')
     
-    html2canvas(div).then(async canvas => {
-       var myImage = canvas.toDataURL()
+    html2canvas(div).then(canvas => {
+       var myImage = canvas.toDataURL().blob()
         downloadURI(myImage, "MaSimulation.png")
     });
  }

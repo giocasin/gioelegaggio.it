@@ -27,17 +27,16 @@ function MobileAndTablet() {
     return check;
 }
 
-function PrintDiv() {
+async function PrintDiv() {
     const div = document.getElementById('mainCont')
     
-    html2canvas(div).then(canvas => {
-      canvas.toBlob((blob) => {
-        downloadURI(blob, 'foto')
-      })
-    });
+    var canvas = await html2canvas(div)
+    canvas.toBlob(async (blob) => {
+      await downloadURI(blob, 'foto')
+    })
  }
  
-function downloadURI(uri, name) {
+async function downloadURI(uri, name) {
     const filesArray = [
         new File([uri], name, {
           type: 'image/png',
@@ -51,6 +50,6 @@ function downloadURI(uri, name) {
       }
   
       if (navigator.canShare && navigator.canShare(shareData)) {
-        navigator.share(shareData).then(() => console.log('shared'))
+        await navigator.share(shareData)
       }
  }
